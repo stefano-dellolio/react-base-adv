@@ -30,11 +30,11 @@ export const Navigation = () => {
                 </ul>
             </nav>
             <Routes>
-                <Route path="/formik-basic" element={ <><FormikBasicPage /></> } />
-                <Route path="/formik-yup" element={ <><FormikYupPage /></> } />
-                <Route path="/formik-components" element={ <><FormikComponents /></> } />
-                <Route path="/formik-abstract" element={ <><FormikAbstract /></> } />
-                <Route path="/register" element={ <><RegisterPage /></> } />
+                <Route path="/formik-basic" element={ <FormikBasicPage /> } />
+                <Route path="/formik-yup" element={ <FormikYupPage /> } />
+                <Route path="/formik-components" element={ <FormikComponents /> } />
+                <Route path="/formik-abstract" element={ <FormikAbstract /> } />
+                <Route path="/register" element={ <RegisterPage /> } />
                 <Route path="/users" element={ <h1>Users</h1> } />
                 <Route path="/*" element={ <Navigate to="/home" replace /> } />
             </Routes>
